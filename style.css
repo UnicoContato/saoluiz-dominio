@@ -1,0 +1,22 @@
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #DC2626;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #B91C1C;
+}
+
+/* Map adjustment for specific responsiveness if needed */
+.map-container {
+    min-height: 400px;
+}
